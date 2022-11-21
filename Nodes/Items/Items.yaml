@@ -18,3 +18,20 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 110.0
+- Name: Box1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Box1
+    Id: g=1aea84c69883185e77b4a4eaf84b6147
+    Supertype: TextBox
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
